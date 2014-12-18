@@ -5,13 +5,13 @@ import web
 
 
 urls = (
-        '/','Index'
+        '/hello','Index'
         )
 
 
 app = web.application(urls,globals())
 
-render = web.template.render('templates/',base="layout")
+render = web.template.render('/usr/local/LPTHW/ex51/gothonweb/templates/',base="layout")
 
 
 
